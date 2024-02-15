@@ -1,5 +1,5 @@
-# vue_project
-
+# 框架
+Vue2
 ## Project setup
 ```
 npm install
