@@ -1,0 +1,30 @@
+State
+// store/index.js/State 
+//輔助函數
+...mapState(["isMenuOpen"])
+==
+//原生語法 
+isMenuOpen(){
+ return this.$store.state.isMenuOpen;
+ }
+
+// store/menu.js/State
+...mapState(["MenuTitle"])
+==
+MenuTitle(){
+    return this.$store.state.menu.MenuTitle;
+}
+
+Getters
+// store/menu.js/Getters 使用單一的輔助函數語法
+...mapGetters(["menu", ["getMenuTitle"]])
+==
+//原生語法
+getMenuTitle(){
+    return this.$store.getters.getMenuTitle
+}
+
+// store/menu.js/Getters 使用多個的輔助函數語法
+...mapGetters(["menu", ["getMenuItems"],["getMenuTitle"]])
+//不建議用原生語法 只能各別CALL ƒ() 程式會很冗長或是用變數去接 在各別回傳 
+//建議一次傳陣列或物件
