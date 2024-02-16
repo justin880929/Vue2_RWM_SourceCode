@@ -21,3 +21,10 @@ Vue2
 ### 優點(pros)
 - 免費Req有9999次
 - Free Pending Req 9999 tiems
+## Default account 預設帳號
+- User
+account: avaricer@gmail.com
+Pwd: 123456
+- Backstage
+account: admin
+Pwd: admin
