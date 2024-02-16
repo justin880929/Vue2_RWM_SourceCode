@@ -23,11 +23,11 @@ Vue2
 - Free Pending Req 9999 tiems
 ## Default account 預設帳號
 ### **User**
-#### Account: avaricer@gmail.com
-##### Pwd: 123456
+> Account: avaricer@gmail.com
+> Pwd: 123456
 ### **Backstage**
-##### Account: admin
-##### Pwd: admin
+> Account: admin
+> Pwd: admin
 <font color="red">建立的帳號不會傳給外部資料庫，可以隨意測試</font>
 
 
